@@ -8,7 +8,7 @@ LON = -82.9988
 RSS_FILE = "solar_time.xml"
 
 API_URL = (
-    f"https://api.open-meteo.com/v1/solar?"
+    f"https://api.open-meteo.com/v1/astronomy?"
     f"latitude={LAT}&longitude={LON}&hourly=solar_time"
 )
 
