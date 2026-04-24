@@ -1,6 +1,8 @@
 name: Update Solar Time RSS
 
 on:
+permissions:
+  contents: write
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
